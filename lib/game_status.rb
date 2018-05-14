@@ -47,3 +47,5 @@ def draw?(board)
   end
   return full?(board)
 end
+
+def over?(board)
