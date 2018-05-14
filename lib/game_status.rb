@@ -15,5 +15,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.detect do |combo|
-    if combo == 
+  WIN_COMBINATIONS.each do |win_index|
+    
