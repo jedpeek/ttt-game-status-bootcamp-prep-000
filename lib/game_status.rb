@@ -54,3 +54,5 @@ def over?(board)
   end
 return draw?(board)
 end
+
+def winner(board)
