@@ -21,7 +21,7 @@ def won?(board)
     index_3 = win_combo[2]
 
     if board[index_1] == "X" && board[index_2] == "X" && board[index_3] == "X"
-      return true
+      return win_combo
     else
       return false
     end
