@@ -33,7 +33,7 @@ def won?(board)
 end
 
 def full?(board)
-if board.find{|i| i == " "}.length == 0
+if board.find{|i| i == " "}
   return true
 end
 return false
