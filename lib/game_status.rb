@@ -56,7 +56,7 @@ return draw?(board)
 end
 
 def winner(board)
-  won?(board) = y
+  y = won?(board)
   if won?(board) != false
     return board[y[0]]
   else
