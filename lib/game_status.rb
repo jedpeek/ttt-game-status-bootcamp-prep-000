@@ -24,10 +24,8 @@ def won?(board)
     pos_2 = board[index_2]
     pos_3 = board[index_3]
 
-    if pos_1 == "X" && pos_2 == "X" && pos_3 == "X"
+    if (pos_1 == "X" && pos_2 == "X" && pos_3 == "X") || (pos_1 == "O" && pos_2 == "O" && pos_3 == "O")
       return win_combo
-    elsif pos_1 == "O" && pos_2 == "O" && pos_3 == "O"
-        return win_combo
     else
       return false
     end
