@@ -52,5 +52,5 @@ def over?(board)
 if won?(board) != false
   return true
 end
-return full?(board)
+return draw?(board)
 end
