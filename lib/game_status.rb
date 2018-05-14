@@ -56,10 +56,8 @@ return draw?(board)
 end
 
 def winner(board)
-  if board[win_combo[0]] == "X"
-    return "X"
-  elsif board[win_combo[0]] == "O"
-    return "O"
+  if won?(board)
+    return board[win_combo[0]]
   else
     return nil
   end
