@@ -37,6 +37,7 @@ def full?(board)
     if i == " "
       return true
     end
+    return false
   end
-return false
+
 end
