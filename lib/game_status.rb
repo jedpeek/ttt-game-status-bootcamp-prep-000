@@ -33,4 +33,3 @@ def won?(board)
 end
 
 def full?(board)
-  if board.detect do{|i|, i == " ", return false}
