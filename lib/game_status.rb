@@ -54,3 +54,4 @@ if won?(board) != false
 else
 return draw?(board)
 end
+end
